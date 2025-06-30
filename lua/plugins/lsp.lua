@@ -116,6 +116,10 @@ return {
 				},
 			},
 			html = {},
+			cssls = {},
+			ast_grep = {},
+			eslint = {},
+			ts_ls = {},
 		}
 
 		require("mason").setup()

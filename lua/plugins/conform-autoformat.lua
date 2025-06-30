@@ -31,7 +31,10 @@ return {
 
 		formatters_by_ft = {
 			lua = { "stylua" },
-			html = { "djlint" },
+			html = { "prettier" },
+			scss = { "prettier" },
+			ts = { "ts-standard" },
+			tsx = { "ts-standard" },
 		},
 	},
 }

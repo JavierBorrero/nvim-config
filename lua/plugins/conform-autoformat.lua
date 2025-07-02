@@ -35,6 +35,7 @@ return {
 			scss = { "prettier" },
 			ts = { "ts-standard" },
 			tsx = { "ts-standard" },
+			java = { "ast_grep" },
 		},
 	},
 }

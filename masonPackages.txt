@@ -1,0 +1,15 @@
+ast-grep
+clangd
+css-lsp
+eslint-lsp
+html-lsp
+jdtls
+lua-language-server
+masonPackages.txt
+prettier
+pyright
+rust-analyzer
+stylua
+ts-standard
+typescript-language-server
+xmlformatter

@@ -74,5 +74,9 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 
 vim.lsp.enable('lua_ls')
 vim.lsp.enable('rust_analyzer')
+vim.lsp.enable('pyright')
+vim.lsp.enable('gdscript')
+vim.lsp.enable('jdtls')
 
+require("config.lsp_keymaps")
 require("config.lazy")

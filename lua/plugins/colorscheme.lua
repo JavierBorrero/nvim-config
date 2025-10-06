@@ -5,12 +5,19 @@ return {
 	--	vim.cmd.colorscheme("carbonfox")
 	--end,
 	--
-	"navarasu/onedark.nvim",
+	-- ================================================
+	-- "navarasu/onedark.nvim",
+	-- priority = 1000,
+	-- config = function()
+	-- 	require("onedark").setup({
+	-- 		style = "warmer",
+	-- 	})
+	-- 	require("onedark").load()
+	-- end,
+	-- ================================================
+	"scottmckendry/cyberdream.nvim",
 	priority = 1000,
 	config = function()
-		require("onedark").setup({
-			style = "warmer",
-		})
-		require("onedark").load()
+		vim.cmd.colorscheme("cyberdream")
 	end,
 }

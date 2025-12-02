@@ -5,7 +5,7 @@ vim.keymap.set("n", "<leader>pv", vim.cmd.Ex, { desc = "[P]roject [V]iew" })
 
 -- Line numbers / relative line numbers
 vim.opt.number = true
-vim.opt.relativenumber = true
+-- vim.opt.relativenumber = true
 
 -- Enable mouse mode.
 vim.opt.mouse = "a"
@@ -74,9 +74,14 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 
 vim.lsp.enable('lua_ls')
 vim.lsp.enable('rust_analyzer')
-vim.lsp.enable('pyright')
+--vim.lsp.enable('pyright')
 vim.lsp.enable('gdscript')
 vim.lsp.enable('jdtls')
+vim.lsp.enable('angularls')
+vim.lsp.enable('ts_ls')
+vim.lsp.enable('basedpyright')
+vim.lsp.enable('clangd')
+vim.lsp.enable('roslyn_ls')
 
 require("config.lsp_keymaps")
 require("config.lazy")

@@ -1,8 +1,8 @@
-return {
-	vim.lsp.config('jdtls', {
-		settings = {
-			java = {
-			}
-		}
-	})
-}
+--return {
+--	vim.lsp.config('jdtls', {
+--		settings = {
+--			java = {
+--			}
+--		}
+--	})
+--}

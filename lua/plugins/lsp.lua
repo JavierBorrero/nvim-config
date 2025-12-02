@@ -1,5 +1,5 @@
 return {
-	-- "neovim/nvim-lspconfig",
+	"neovim/nvim-lspconfig",
 	-- dependencies = {
 	-- 	{ "williamboman/mason.nvim", config = true }, -- NOTE: Must be loaded before dependants
 	-- 	"williamboman/mason-lspconfig.nvim",
